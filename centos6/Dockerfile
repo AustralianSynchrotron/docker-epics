@@ -6,4 +6,6 @@ RUN mkdir /opt/epics \
     && mv base-3.14.12.5 base \
     && cd base \
     && make install
-ENV PATH /opt/epics/base/bin/linux-x86_64:$PATH
+ENV PATH=/opt/epics/base/bin/linux-x86_64:$PATH \
+    EPICS_BASE=/opt/epics/base \
+    EPICS_HOST_ARCH=linux-x86_64
