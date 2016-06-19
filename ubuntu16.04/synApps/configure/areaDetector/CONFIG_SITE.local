@@ -1,0 +1,8 @@
+USE_GRAPHICSMAGICK = YES
+HDF5_LIB = /usr/lib/x86_64-linux-gnu/hdf5/serial
+HDF5_INCLUDE = -I/usr/include/hdf5/serial
+SZIP_LIB = /usr/lib/x86_64-linux-gnu
+SZIP_INCLUDE = -I/usr/local/include
+XML2_INCLUDE = -I/usr/include/libxml2
+GRAPHICS_MAGICK_LIB = /usr/lib
+GRAPHICS_MAGICK_INCLUDE = -I/usr/include/GraphicsMagick
