@@ -1,0 +1,8 @@
+include $(AREA_DETECTOR)/configure/RELEASE_LIBS.local
+AUTOSAVE=$(SUPPORT)/autosave-5-6-1
+BUSY=$(SUPPORT)/busy-1-6-1
+CALC=$(SUPPORT)/calc-3-4-2-1
+SNCSEQ=$(SUPPORT)/seq-2-2-1
+SSCAN=$(SUPPORT)/sscan-2-10-1
+DEVIOCSTATS=$(SUPPORT)/devIocStats-3-1-13
+-include $(AREA_DETECTOR)/configure/RELEASE_PRODS.local.$(EPICS_HOST_ARCH)
