@@ -1,0 +1,12 @@
+TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
+
+ASYN=$(SUPPORT)/asyn
+CALC=$(SUPPORT)/calc
+BUSY=$(SUPPORT)/busy
+SSCAN=$(SUPPORT)/sscan
+AUTOSAVE=$(SUPPORT)/autosave
+
+ADCORE=$(AREA_DETECTOR)/ADCore
+ADEXAMPLE=$(AREA_DETECTOR)/ADExample
+
+-include $(AREA_DETECTOR)/configure/RELEASE_LIBS.local.$(EPICS_HOST_ARCH)

@@ -1,0 +1,4 @@
+TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
+
+EPICS_BASE=/opt/epics/base
+-include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)

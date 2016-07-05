@@ -1,0 +1,4 @@
+HDF5         = /usr/local/hdf5
+HDF5_LIB     = $(HDF5)/lib
+HDF5_INCLUDE = -I$(HDF5)/include
+XML2_INCLUDE = -I/usr/include/libxml2

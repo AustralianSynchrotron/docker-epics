@@ -1,0 +1,5 @@
+SUPPORT=/opt/epics/support
+-include $(TOP)/../configure/SUPPORT.$(EPICS_HOST_ARCH)
+
+EPICS_BASE=/opt/epics/base
+-include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)
